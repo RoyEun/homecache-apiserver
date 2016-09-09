@@ -1,0 +1,35 @@
+{
+  "name": "homecache-api-server",
+  "version": "1.0.0",
+  "description": "Real estate dashboard for house listings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HomeCache/homecache-apiserver.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HomeCache/homecache-apiserver/issues"
+  },
+  "homepage": "https://github.com/HomeCache/homecache-apiserver#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "express-jwt": "^5.0.0",
+    "jsonwebtoken": "^7.1.9",
+    "lodash": "^4.15.0",
+    "pg": "^6.1.0",
+    "winston": "^2.2.0"
+  },
+  "engines": {
+    "node": "6.3.1"
+  }
+}
