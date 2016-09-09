@@ -29,6 +29,7 @@
     "jsonwebtoken": "^7.1.9",
     "lodash": "^4.15.0",
     "morgan": "^1.7.0",
+    "mysql": "^2.11.1",
     "pg": "^6.1.0",
     "sequelize": "^3.24.2",
     "winston": "^2.2.0"

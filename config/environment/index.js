@@ -7,5 +7,6 @@ const baseSettings = {
 };
 
 const environmentSettings = require(`./${baseSettings.env}`);
+console.log('`./${BASESETTINGS.ENV}`', `./${baseSettings.env}`)
 
 module.exports = _.merge(baseSettings, environmentSettings || {});

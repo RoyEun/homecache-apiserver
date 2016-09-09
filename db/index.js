@@ -1,9 +1,10 @@
 const Sequelize = require('sequelize');
 const config = require('../config/environment');
+const Promise = require('bluebird');
 
-console.log(config, 'config');
+Sequelize.Promise = Promise;
 
 // Ask dennis how postgres is available from environment settings in the environment folder
 // module.exports = new Sequelize(config.postgres.uri, userName, password);
 
-module.exports = new Sequelize()
+module.exports = new Sequelize();

@@ -5,6 +5,6 @@ const configRoutes = require('./config/router');
 const app = express();
 
 configExpress(app);
-configRoutes(app);
+// configRoutes(app);
 
 module.exports = app;
